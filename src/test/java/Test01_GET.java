@@ -41,6 +41,7 @@ public class Test01_GET {
                 .then()
                 .statusCode(200);
 
+
         given()
                 .get("https://reqres.in/api/users?page=2")
                 .then()
